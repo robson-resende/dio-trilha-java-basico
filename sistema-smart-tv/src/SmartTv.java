@@ -3,7 +3,7 @@ public class SmartTv {
     int canal = 1;
     int volume = 25;
 
-    //Método ligar/desligar TV
+    //Método ligar/desligar
     public void ligar(){
         ligada = true;
     }
@@ -12,7 +12,7 @@ public class SmartTv {
         ligada = false;
     }
 
-    //Método mudar de canal da TV
+    //Método mudar de canal
     public void mudarCanal(int novoCanal){
         canal = novoCanal;
     }
@@ -27,7 +27,7 @@ public class SmartTv {
         System.out.println("Diminuindo canal: " + canal);
     }
 
-    //Método aumentar/diminuir volume da TV
+    //Método aumentar/diminuir volume
     public void aumentarVolume(){
         //volume = volume + 1;
         volume++;
